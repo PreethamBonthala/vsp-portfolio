@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 
 export default defineConfig(({ command }) => ({
-  //base: "/vspreetham-portfolio/",
+  base: "/vsp-portfolio/#hero",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
