@@ -1,11 +1,14 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import Project1 from "/public/projects/project1.png";
+import Project2 from "/public/projects/project2.png";
+import Project3 from "/public/projects/project3.png";
 
 const projects = [
   {
     id: 1,
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
+    image: Project1,
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +18,7 @@ const projects = [
     title: "Orbit Analytics Dashboard",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
+    image: Project2,
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "#",
     githubUrl: "#",
@@ -25,7 +28,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
+    image: Project3,
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
     githubUrl: "#",

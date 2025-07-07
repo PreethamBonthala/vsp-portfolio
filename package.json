@@ -1,7 +1,6 @@
 {
   "name": "beautiful-portfolio",
-  "homepage": "https://PreethamBonthala.github.io/vsp-portfolio/#hero",
-
+  "homepage": "https://preethambonthala.github.io/vsp-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -23,6 +22,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.6.2",
+    "react-router-hash-link": "^2.4.3",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.4"
   },
